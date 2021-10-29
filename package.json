@@ -1,7 +1,14 @@
 {
   "name": "textlint-playground",
   "version": "1.0.0",
+  "scripts": {
+    "textlint": "textlint index.md",
+    "textlint:fix": "textlint --fix index.md"
+  },
   "dependencies": {
-
+    "textlint": "^12.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-japanese": "^7.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.12"
   }
 }
