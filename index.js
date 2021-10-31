@@ -24,12 +24,17 @@ const lintText = async (text) => {
   return engine.isErrorResults(results) ? engine.formatResults(results) : 'All Passed!';
 };
 
-lintText('私はJavaScriptが大好きです')
-  .then((result) => console.log(result))
-  .catch((err) => console.log(err));
+//lintText('私はJavaScriptが大好きです')
+//  .then((result) => console.log(result))
+//  .catch((err) => console.log(err));
 
 lintFile('index.md')
-  .then((result) => console.log(result))
+  .then((result) => {
+//    console.log(result.slice(100));
+    console.log(result);
+    console.log(typeof result);
+    console.log(result.length);
+  })
   .catch((err) => console.log(err));
 
 // https://fwywd.com/tech/textlint-engine-basic

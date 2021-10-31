@@ -49,8 +49,8 @@ module.exports = {
     "ja-hiragana-fukushi": { "severity" : "warning" }, // 勿論 => もちろん
 //    "ja-hiragana-hojodoushi": true, // 〜して頂く => 〜していただく
     "ja-hiragana-keishikimeishi": true, // 〜する方が => 〜するほうが
-    "prh": {
-      "rulePaths": ["./prh.yml"],
-    },
+//    "prh": {
+//      "rulePaths": ["./prh.yml"],
+//    },
   }
 }
