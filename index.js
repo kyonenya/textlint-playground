@@ -30,10 +30,10 @@ const lintText = async (text) => {
 
 lintFile('index.md')
   .then((result) => {
-//    console.log(result.slice(100));
+//    console.log(result);
     console.log(result);
-    console.log(typeof result);
-    console.log(result.length);
+    console.log(result);
+//    console.log(result.length);
   })
   .catch((err) => console.log(err));
 
