@@ -4,7 +4,7 @@
   "scripts": {
     "textlint": "textlint index.md",
     "textlint:fix": "textlint --fix index.md",
-    "textlint:format": "textlint -c .textlintrc.format.js index.md",
+    "textlint:syntax": "textlint -c .textlintrc.syntax.js index.md",
     "textlint:expression": "textlint -c .textlintrc.expression.js index.md",
     "prh": "prh init"
   },
