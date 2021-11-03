@@ -1,5 +1,11 @@
 module.exports = {
-  "filters": {},
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "〔…〕", // 三点リーダーの数が奇数でも許容
+      ],
+    },
+  },
   "rules": {
     "preset-jtf-style": {
 //      "1.1.1.本文": false, // 本文を常体(である調)に統一して下さい
