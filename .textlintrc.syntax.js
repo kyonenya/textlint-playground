@@ -19,5 +19,5 @@ module.exports = {
       "chars_leading_paragraph": false, // 段落の先頭には全角スペース
       "max_arabic_numeral_digits": false, // アラビア数字の桁数は2桁まで
     },
-  }
-}
+  },
+};

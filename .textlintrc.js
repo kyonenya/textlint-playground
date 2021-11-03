@@ -52,5 +52,5 @@ module.exports = {
 //    "prh": {
 //      "rulePaths": ["./prh.yml"],
 //    },
-  }
-}
+  },
+};
